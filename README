@@ -1,0 +1,11 @@
+This is a liquid solver featuring FLIP advection and AMGPCG pressure solver,
+this solver was modified from christopher batty's original implemention of
+ "variational fluid solver(BBB07)"
+
+In addtion, it has a Signed distance field initializer(but inefficient), so it
+is possible for one to use this solver with more complicated static scenes.
+the obj input HAS TO BE A CLOSED MESH. 
+
+this solver outputs liquid meshes(in obj file) which can be then rendered by maya.
+
+you need intel tbb installed in order to have this build.

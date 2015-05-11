@@ -1,0 +1,110 @@
+﻿Build started 22/02/2015 8:45:24 AM.
+     1>Project "C:\Users\xinxin\Dropbox\xinxin_code\Liquid_solver\Fluid3D-master\viewpls3D\ViewFluid3D.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\ViewFluid3D.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\common /IRelease\..\ /I"C:\Users\xinxin\Dropbox\xinxin_code\Liquid_solver\Fluid3D-master" /Zi /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /errorReport:prompt gluvi.cpp
+         gluvi.cpp
+     1>gluvi.cpp(61): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(64): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(69): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(70): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(71): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(74): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(103): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(104): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(104): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(216): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(219): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(224): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(225): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(226): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(229): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(271): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(320): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(321): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(335): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(336): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(340): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>gluvi.cpp(350): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>gluvi.cpp(351): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(352): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(428): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(429): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(464): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(464): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(464): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(491): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(491): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(491): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(498): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(498): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(498): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(505): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(505): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(505): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(507): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(507): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(507): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(568): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(568): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(568): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(580): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(580): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(580): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(588): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(588): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(588): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(596): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(596): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(596): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(602): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(602): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(602): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(898): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(898): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(898): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(902): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(902): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(902): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(908): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(908): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(908): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(914): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(914): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(914): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>gluvi.cpp(924): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(924): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(924): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(925): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(925): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(925): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(926): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(926): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(926): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(936): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(936): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(936): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(937): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(937): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(937): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gluvi.cpp(972): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>gluvi.cpp(1026): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\xinxin\Dropbox\xinxin_code\Liquid_solver\Fluid3D-master\viewpls3D\Release\ViewFluid3D.exe) does not match the Linker's OutputFile property value (C:\Users\xinxin\Dropbox\xinxin_code\Liquid_solver\Fluid3D-master\viewpls3D\Release\ViewFlip3D.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(ViewFluid3D) does not match the Linker's OutputFile property value (ViewFlip3D). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Release\ViewFlip3D.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:Release\..\lib\x64 freeglut.lib glew64.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ViewFluid3D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\xinxin\Dropbox\xinxin_code\Liquid_solver\Fluid3D-master\viewpls3D\Release\ViewFluid3D.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Release\ViewFluid3D.lib" /MACHINE:X64 Release\gluvi.obj
+         Release\main.obj
+         Release\render_particles.obj
+         Release\shaders.obj
+         ViewFluid3D.vcxproj -> C:\Users\xinxin\Dropbox\xinxin_code\Liquid_solver\Fluid3D-master\viewpls3D\Release\ViewFluid3D.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\ViewFlip3D.exe;#1" /manifest Release\ViewFluid3D.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\ViewFluid3D.unsuccessfulbuild".
+         Touching "Release\ViewFluid3D.lastbuildstate".
+     1>Done Building Project "C:\Users\xinxin\Dropbox\xinxin_code\Liquid_solver\Fluid3D-master\viewpls3D\ViewFluid3D.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.55

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\pcgsolver">
+      <UniqueIdentifier>{ce32aa2f-2b3a-4ef6-b053-a7caa1323710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\AMG">
+      <UniqueIdentifier>{65b16f5a-2f54-45e7-acad-344ec9b45eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OBJToSDF">
+      <UniqueIdentifier>{29bf567b-675b-444a-a69e-00ef790f3392}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fluidsim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="levelset_util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricLevelGen.h">
+      <Filter>Header Files\AMG</Filter>
+    </ClCompile>
+    <ClCompile Include="faithful_surfacing3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="marching_tiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricLevelGen.cpp">
+      <Filter>Header Files\AMG</Filter>
+    </ClCompile>
+    <ClCompile Include="makelevelset3.cpp">
+      <Filter>Header Files\OBJToSDF</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="array1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="array2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="array2_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="array3_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fluidsim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hashtable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="levelset_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcgsolver\blas_wrapper.h">
+      <Filter>Header Files\pcgsolver</Filter>
+    </ClInclude>
+    <ClInclude Include="pcgsolver\pcg_solver.h">
+      <Filter>Header Files\pcgsolver</Filter>
+    </ClInclude>
+    <ClInclude Include="pcgsolver\sparse_matrix.h">
+      <Filter>Header Files\pcgsolver</Filter>
+    </ClInclude>
+    <ClInclude Include="array3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgebraicMultigrid.h">
+      <Filter>Header Files\AMG</Filter>
+    </ClInclude>
+    <ClInclude Include="faithful_surfacing3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="marching_tiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hashgrid.h">
+      <Filter>Header Files\OBJToSDF</Filter>
+    </ClInclude>
+    <ClInclude Include="makelevelset3.h">
+      <Filter>Header Files\OBJToSDF</Filter>
+    </ClInclude>
+    <ClInclude Include="SDFGen.h">
+      <Filter>Header Files\OBJToSDF</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
